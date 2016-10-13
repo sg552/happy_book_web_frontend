@@ -6,6 +6,8 @@
 * [切图](web_front_end/qietu.md)
   * [gimp的基本用法](/web_front_end/gimp.md)
   * [photoshop的基本用法](/web_front_end/photoshop.md)
+* [javascript](web_front_end/js.md)
+* [jQuery](web_front_end/jquery.md)
 * [各种组件](web_front_end/js_components.md)
   * [上传图片 file-upload](web_front_end/js_components/file_uploader.md)
   * [弹出窗口 dialog](web_front_end/js_components/dialog.md)
