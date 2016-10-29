@@ -2,6 +2,46 @@
 
 CSS : Cascade Style Sheet, 层次样式表. 国内的人都喜欢叫CSS. 它决定了网页的样子.
 
+它决定了 HTML的样式.
+
+## HTML 与CSS的关系
+
+在199x年左右, 那时候还没有CSS, 所以,HTML代码看起来这样:
+
+```
+<img src='a.jpg' width=30 height=60 border=3 />
+```
+
+或者
+
+```
+<b>这里是粗体</b>
+<i>这里是斜体</i>
+```
+
+我们会发现, 粗体一个标签, 斜体一个标签. 那么粗斜体怎么办? 要不要搞出一个 <bi/> 或者 <cuxieti></cuxieti>
+这样的标签?
+
+而且, HTML 的功能,是 只标记好层次结构就好了. 至于 页面的展现起来如何(看起来如何), 最好交给 专门的
+语言去做. 这个语言,就是CSS
+
+
+CSS对于上面三个内容,写起来就是:
+
+```
+<img src='a.jpg' style='width: 30px, height: 60px; border: 1px solid red'/>
+<span style='font-style: bold'>这里是粗体</span>
+<span style='font-style: italic'>这里是斜体</span>
+<span style='font-style: italic; font-weight: 900'>这里是粗斜体</span>
+```
+
+## 调试CSS的过程
+
+1. 进入到编辑器, 输入内容. (例如一个HTML页面)
+2. 打开 浏览器(chrome, firefox), 打开刚才的页面
+3. 可以使用 inspector (chrome下的 F12 )看效果.
+4. 如果不行的话, 再alt + tab 切换回原来的编辑器. 修改,保存. 重复第二步.
+
 ## 使用方法
 
 - 外部使用:
@@ -20,6 +60,8 @@ CSS : Cascade Style Sheet, 层次样式表. 国内的人都喜欢叫CSS. 它决�
   border: 1px solid red;
 }
 </style>
+
+<div class='red_box'> 666 </div>
 ```
 
 - 行内使用(inline style)
